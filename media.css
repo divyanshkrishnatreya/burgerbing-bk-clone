@@ -1,0 +1,142 @@
+@media (max-width: 376px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'flame', sans-serif;
+        background-color: rgb(219, 143, 38);
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* Navbar Styling */
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* padding: 10px 15px; */
+        border-bottom: 1px solid black;
+        background-color: #ffffff;
+        width: 100%;
+    }
+
+    .bk-logo {
+        width: 120px;
+        height: auto;
+    }
+
+    .container-fluid {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #d62201;
+        /* padding: 10px; */
+    }
+
+    .container-fluid .btn {
+        background-color: #802919;
+        font-family: 'flame', sans-serif;
+        font-size: 14px;
+        color: whitesmoke;
+        border-radius: 15px;
+        height: 33px;
+        padding: 5px 10px;
+        white-space: nowrap;
+    }
+
+    .container-fluid .btn .cart-icon {
+        filter: invert(1) grayscale(100%) brightness(100%) sepia(100%) hue-rotate(180deg);
+        width: 18px;
+        height: auto;
+    }
+
+    .container-fluid .navbar-toggler {
+        border: none;
+        background: none;
+    }
+
+    .container-fluid .grp-1 {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .container-fluid .user-icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    /* Hero Section */
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .hero-left {
+        width: 100%;
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 1.2;
+        padding: 20px;
+    }
+
+    .hero-left p {
+        color: #502214;
+        font-size: 14px;
+    }
+
+    .hero-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .vertical-btn {
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero-left .btn1,
+    .hero-left .btn2 {
+        background-color: #d62201;
+        color: whitesmoke;
+        border-radius: 30px;
+        border: 1px solid whitesmoke;
+        width: 160px;
+        height: 40px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-left .btn2 {
+        background-color: transparent;
+        color: #502250;
+        border: 1px solid #502250;
+    }
+
+    /* Image Container */
+    .container-fluid1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-fluid1 img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+}
