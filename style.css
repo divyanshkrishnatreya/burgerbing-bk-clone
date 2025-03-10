@@ -1,14 +1,14 @@
 
 @font-face {
     font-family: 'Flamer';
-    src: url('../assets/fonts/Flame-Regular.woff') format('woff');
+    src: url('./assets/fonts/Flame-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Flameb';
-    src: url('../assets/fonts/Flame-Bold.woff') format('woff');
+    src: url('./assets/fonts/Flame-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
